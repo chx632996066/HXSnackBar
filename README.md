@@ -4,3 +4,5 @@
 <video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
       <source id="mp4" src="https://github.com/chx632996066/HXSnackBar/blob/master/HXSnackBarDemo/HXSnackBar.mov" type="video/mp4">
 </video>
+
+<iframe height=320 width=575 src="https://github.com/chx632996066/HXSnackBar/blob/master/HXSnackBarDemo/HXSnackBar.mov" frameborder=0 allowfullscreen></iframe>
