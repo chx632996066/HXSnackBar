@@ -8,7 +8,7 @@
 
 ```
 HXSnackBar *snackBar = [HXSnackBar snackBarWithBuilder:^(HXSnackBarBuilder *builder) {
-                builder.containerViewController = self;
+        builder.containerViewController = self;
         builder.duration = -1;
         builder.noticeText = @"网络好像有点不稳定";
         builder.actionText = @"重新尝试";
