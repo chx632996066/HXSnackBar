@@ -40,6 +40,7 @@ typedef void (^actionBlock)();
 /** 动作文本字体 */
 @property(nonatomic, copy) UIFont *actionTextFont;
 
+/** 点击动作按钮的操作block */
 @property(nonatomic, copy) actionBlock actionBlock;
 
 - (HXSnackBar *)build;
