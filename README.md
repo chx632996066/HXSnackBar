@@ -6,7 +6,7 @@
 
 >用法
 
-`
+```
 HXSnackBar *snackBar = [HXSnackBar snackBarWithBuilder:^(HXSnackBarBuilder *builder) {
                 builder.containerViewController = self;
         builder.duration = -1;
@@ -17,11 +17,11 @@ HXSnackBar *snackBar = [HXSnackBar snackBarWithBuilder:^(HXSnackBarBuilder *buil
         };
     }];
     [snackBar show];
- `
+```
 
 >HXSnackBarBuilder支持属性
 
-`
+```
 /** 在哪个ViewController中显示 */
 @property (nonatomic, weak) UIViewController *containerViewController;
 
@@ -49,4 +49,4 @@ HXSnackBar *snackBar = [HXSnackBar snackBarWithBuilder:^(HXSnackBarBuilder *buil
 
 /** 点击动作按钮的操作block */
 @property(nonatomic, copy) actionBlock actionBlock;
-`
+```
