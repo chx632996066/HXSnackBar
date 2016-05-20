@@ -20,6 +20,7 @@ HXSnackBar *snackBar = [HXSnackBar snackBarWithBuilder:^(HXSnackBarBuilder *buil
  `
 
 >HXSnackBarBuilder支持属性
+
 `
 /** 在哪个ViewController中显示 */
 @property (nonatomic, weak) UIViewController *containerViewController;
