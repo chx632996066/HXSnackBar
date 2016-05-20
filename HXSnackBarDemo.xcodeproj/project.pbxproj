@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		908F76221CEDA1D2001FFE43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 908F76211CEDA1D2001FFE43 /* main.m */; };
+		908F76251CEDA1D2001FFE43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 908F76241CEDA1D2001FFE43 /* AppDelegate.m */; };
+		908F76281CEDA1D2001FFE43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 908F76271CEDA1D2001FFE43 /* ViewController.m */; };
+		908F762B1CEDA1D2001FFE43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908F76291CEDA1D2001FFE43 /* Main.storyboard */; };
+		908F762D1CEDA1D2001FFE43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 908F762C1CEDA1D2001FFE43 /* Assets.xcassets */; };
+		908F76301CEDA1D2001FFE43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908F762E1CEDA1D2001FFE43 /* LaunchScreen.storyboard */; };
+		908F76391CEDA24D001FFE43 /* HXSnackBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 908F76381CEDA24D001FFE43 /* HXSnackBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		908F761D1CEDA1D2001FFE43 /* HXSnackBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXSnackBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		908F76211CEDA1D2001FFE43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		908F76231CEDA1D2001FFE43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		908F76241CEDA1D2001FFE43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		908F76261CEDA1D2001FFE43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		908F76271CEDA1D2001FFE43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		908F762A1CEDA1D2001FFE43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		908F762C1CEDA1D2001FFE43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		908F762F1CEDA1D2001FFE43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		908F76311CEDA1D2001FFE43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		908F76371CEDA24D001FFE43 /* HXSnackBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXSnackBar.h; sourceTree = "<group>"; };
+		908F76381CEDA24D001FFE43 /* HXSnackBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXSnackBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		908F761A1CEDA1D2001FFE43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		908F76141CEDA1D2001FFE43 = {
+			isa = PBXGroup;
+			children = (
+				908F761F1CEDA1D2001FFE43 /* HXSnackBarDemo */,
+				908F761E1CEDA1D2001FFE43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		908F761E1CEDA1D2001FFE43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				908F761D1CEDA1D2001FFE43 /* HXSnackBarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		908F761F1CEDA1D2001FFE43 /* HXSnackBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B7C7CA38E97B26F9EF4B7652 /* HXSnackBar */,
+				908F76231CEDA1D2001FFE43 /* AppDelegate.h */,
+				908F76241CEDA1D2001FFE43 /* AppDelegate.m */,
+				908F76261CEDA1D2001FFE43 /* ViewController.h */,
+				908F76271CEDA1D2001FFE43 /* ViewController.m */,
+				908F76291CEDA1D2001FFE43 /* Main.storyboard */,
+				908F762C1CEDA1D2001FFE43 /* Assets.xcassets */,
+				908F762E1CEDA1D2001FFE43 /* LaunchScreen.storyboard */,
+				908F76311CEDA1D2001FFE43 /* Info.plist */,
+				908F76201CEDA1D2001FFE43 /* Supporting Files */,
+			);
+			path = HXSnackBarDemo;
+			sourceTree = "<group>";
+		};
+		908F76201CEDA1D2001FFE43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				908F76211CEDA1D2001FFE43 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7C7CA38E97B26F9EF4B7652 /* HXSnackBar */ = {
+			isa = PBXGroup;
+			children = (
+				908F76371CEDA24D001FFE43 /* HXSnackBar.h */,
+				908F76381CEDA24D001FFE43 /* HXSnackBar.m */,
+			);
+			path = HXSnackBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		908F761C1CEDA1D2001FFE43 /* HXSnackBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 908F76341CEDA1D2001FFE43 /* Build configuration list for PBXNativeTarget "HXSnackBarDemo" */;
+			buildPhases = (
+				908F76191CEDA1D2001FFE43 /* Sources */,
+				908F761A1CEDA1D2001FFE43 /* Frameworks */,
+				908F761B1CEDA1D2001FFE43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXSnackBarDemo;
+			productName = HXSnackBarDemo;
+			productReference = 908F761D1CEDA1D2001FFE43 /* HXSnackBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		908F76151CEDA1D2001FFE43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hongxi;
+				TargetAttributes = {
+					908F761C1CEDA1D2001FFE43 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 908F76181CEDA1D2001FFE43 /* Build configuration list for PBXProject "HXSnackBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 908F76141CEDA1D2001FFE43;
+			productRefGroup = 908F761E1CEDA1D2001FFE43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				908F761C1CEDA1D2001FFE43 /* HXSnackBarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		908F761B1CEDA1D2001FFE43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908F76301CEDA1D2001FFE43 /* LaunchScreen.storyboard in Resources */,
+				908F762D1CEDA1D2001FFE43 /* Assets.xcassets in Resources */,
+				908F762B1CEDA1D2001FFE43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		908F76191CEDA1D2001FFE43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908F76391CEDA24D001FFE43 /* HXSnackBar.m in Sources */,
+				908F76281CEDA1D2001FFE43 /* ViewController.m in Sources */,
+				908F76251CEDA1D2001FFE43 /* AppDelegate.m in Sources */,
+				908F76221CEDA1D2001FFE43 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		908F76291CEDA1D2001FFE43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				908F762A1CEDA1D2001FFE43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		908F762E1CEDA1D2001FFE43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				908F762F1CEDA1D2001FFE43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		908F76321CEDA1D2001FFE43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		908F76331CEDA1D2001FFE43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		908F76351CEDA1D2001FFE43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HXSnackBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hongxi.HXSnackBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		908F76361CEDA1D2001FFE43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HXSnackBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hongxi.HXSnackBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		908F76181CEDA1D2001FFE43 /* Build configuration list for PBXProject "HXSnackBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908F76321CEDA1D2001FFE43 /* Debug */,
+				908F76331CEDA1D2001FFE43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		908F76341CEDA1D2001FFE43 /* Build configuration list for PBXNativeTarget "HXSnackBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908F76351CEDA1D2001FFE43 /* Debug */,
+				908F76361CEDA1D2001FFE43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 908F76151CEDA1D2001FFE43 /* Project object */;
+}

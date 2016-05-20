@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1vO-IX-N0f">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="LaD-4U-ecr">
+            <objects>
+                <navigationController id="1vO-IX-N0f" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="p51-LF-ZP1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="8XN-kJ-1p9" kind="relationship" relationship="rootViewController" id="csi-B2-gHQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tmg-Pd-thz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1313" y="392"/>
+        </scene>
+        <!--HXSnackBarDemo-->
+        <scene sceneID="RI5-LB-60g">
+            <objects>
+                <viewController id="8XN-kJ-1p9" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MSC-Ka-1k2"/>
+                        <viewControllerLayoutGuide type="bottom" id="VKh-5O-LOe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aTq-KN-8UK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyz-h8-R1U">
+                                <rect key="frame" x="70" y="180" width="460" height="35"/>
+                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="YU0-J8-3gN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="在NavigtionBar下面滑出">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="test1:" destination="8XN-kJ-1p9" eventType="touchUpInside" id="bgj-NW-oAG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2J-9w-O0X">
+                                <rect key="frame" x="70" y="322" width="460" height="35"/>
+                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="g74-qg-o86"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="附带Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="test3:" destination="8XN-kJ-1p9" eventType="touchUpInside" id="UHe-qn-ErN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cy-ge-svd">
+                                <rect key="frame" x="70" y="251" width="460" height="35"/>
+                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="N87-S0-fcb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="在底部滑上来">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="test2:" destination="8XN-kJ-1p9" eventType="touchUpInside" id="Egc-0E-cuD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3cy-ge-svd" firstAttribute="top" secondItem="cyz-h8-R1U" secondAttribute="bottom" constant="36" id="Dj3-Xr-4pK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3cy-ge-svd" secondAttribute="trailing" constant="50" id="RTo-75-G6H"/>
+                            <constraint firstItem="f2J-9w-O0X" firstAttribute="top" secondItem="3cy-ge-svd" secondAttribute="bottom" constant="36" id="RrU-sN-nAD"/>
+                            <constraint firstItem="3cy-ge-svd" firstAttribute="leading" secondItem="aTq-KN-8UK" secondAttribute="leadingMargin" constant="50" id="Y7H-OW-Imq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cyz-h8-R1U" secondAttribute="trailing" constant="50" id="bkl-3f-UhQ"/>
+                            <constraint firstItem="cyz-h8-R1U" firstAttribute="leading" secondItem="aTq-KN-8UK" secondAttribute="leadingMargin" constant="50" id="nk7-QM-R0Z"/>
+                            <constraint firstItem="f2J-9w-O0X" firstAttribute="leading" secondItem="aTq-KN-8UK" secondAttribute="leadingMargin" constant="50" id="ptX-Lh-iyT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="f2J-9w-O0X" secondAttribute="trailing" constant="50" id="xA0-jX-3Pd"/>
+                            <constraint firstItem="cyz-h8-R1U" firstAttribute="top" secondItem="MSC-Ka-1k2" secondAttribute="bottom" constant="116" id="xAH-aY-yxs"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="HXSnackBarDemo" id="bk7-1u-RbG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MIx-Ur-8J8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-554" y="392"/>
+        </scene>
+    </scenes>
+</document>
